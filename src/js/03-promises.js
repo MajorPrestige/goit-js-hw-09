@@ -1,9 +1,9 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-firstDelayEl = document.querySelector('[name="delay"]');
-delayStepEl = document.querySelector('[name="step"]');
-amountEl = document.querySelector('[name="amount"]');
-formEl = document.querySelector('form');
+const firstDelayEl = document.querySelector('[name="delay"]');
+const delayStepEl = document.querySelector('[name="step"]');
+const amountEl = document.querySelector('[name="amount"]');
+const formEl = document.querySelector('form');
 
 let firstDelay = null;
 let delayStep = null;
